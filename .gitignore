@@ -1,0 +1,24 @@
+# python 虚拟环境
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 密钥、环境变量
+.env
+
+# node前端依赖
+node_modules/
+npm-debug.log*
+
+# 日志
+*.log
+
+# 本地模型大文件（pt权重很大，一般不上传git）
+model/*.pt
+model/*.bin
+
+# 系统文件
+.DS_Store
+Thumbs.db
